@@ -1,0 +1,24 @@
+name: TeleportOnJoin
+version: '${project.version}'
+main: teleportonjoin.main.Main
+api-version: 1.16
+prefix: TpOnJoin
+authors: [ Kureshik ]
+description: Teleport player on join to given position
+commands:
+  TeleportOnJoin:
+    description: All commands list
+    usage: /<command>
+    aliases: [ TpOnJoin, toj ]
+    permission: TeleportOnJoin.cmds
+    permission-message: You don't have permission.
+  reload:
+    description: Reload plugin config
+    usage: /<command>
+    permission: TeleportOnJoin.cmds
+    permission-message: You don't have permission.
+  test:
+    description: Teleport you to location in config
+    usage: /<command>
+    permission: TeleportOnJoin.cmds
+    permission-message: You don't have permission.
